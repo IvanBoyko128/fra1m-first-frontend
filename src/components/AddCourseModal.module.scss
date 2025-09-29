@@ -1,0 +1,39 @@
+.modal {
+  .form {
+    .formItem {
+      margin-bottom: 16px;
+    }
+
+    .titleInput {
+      font-size: 16px;
+      padding: 8px 12px;
+    }
+
+    .descriptionInput {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .lessonsInput {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .cancelButton {
+    height: 36px;
+    padding: 0 16px;
+  }
+
+  .submitButton {
+    height: 36px;
+    padding: 0 16px;
+    font-weight: 500;
+  }
+}

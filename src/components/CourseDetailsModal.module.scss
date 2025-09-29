@@ -1,0 +1,46 @@
+.modal {
+  .description {
+    margin-bottom: 16px;
+  }
+
+  .descriptionTitle {
+    font-size: 16px;
+    font-weight: 600;
+    color: #262626;
+    margin-bottom: 8px;
+  }
+
+  .descriptionText {
+    color: #666;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  .lessons {
+    .lessonsTitle {
+      font-size: 16px;
+      font-weight: 600;
+      color: #262626;
+      margin-bottom: 12px;
+    }
+
+    .lessonItem {
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    .lessonTag {
+      margin-right: 8px;
+      font-size: 12px;
+    }
+
+    .lessonText {
+      color: #262626;
+      font-size: 14px;
+    }
+  }
+}
